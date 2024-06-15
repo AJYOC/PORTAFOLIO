@@ -73,7 +73,7 @@ Predicción de consumo de combustible: Con el modelo de regresión lineal ajusta
 
 Análisis de rendimiento del motor: El análisis de la relación entre la potencia del motor y la eficiencia de combustible también puede proporcionar información sobre el rendimiento general del motor en términos de economía y potencia, lo cual es crucial para el diseño de motores más eficientes y potentes.
 
-#INGENIERIA DE DATOS
+#INGENIERIA DE DATOS  https://github.com/AJYOC/PORTAFOLIO/blob/main/5.%20Ingeniera%20de%20datos.r
 
 En este ejercicio, se llevó a cabo un proceso completo de web scraping, limpieza de datos y análisis estadístico utilizando el lenguaje de programación R. A continuación, se describen detalladamente los pasos realizados:
 
