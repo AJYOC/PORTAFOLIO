@@ -19,7 +19,7 @@ Conocer cuáles productos son altamente valorados y cuáles no tienen calificaci
 ¿Qué productos deben ser promocionados o descontinuados?
 La calidad y la visibilidad de las calificaciones pueden guiar decisiones sobre qué productos promocionar para aumentar su visibilidad y ventas, o cuáles descontinuar si consistentemente reciben malas calificaciones o no generan interés.
 
-#ANALISIS DE DATOS
+#ANALISIS DE DATOS https://github.com/AJYOC/PORTAFOLIO/blob/main/2.%20An%C3%A1lisis%20de%20datos%20poblaciones.r
 
 Este análisis se centra en la población de 100 países para los años 2023 y 2024, comparando los cambios en la población y proporcionando visualizaciones claras de los datos. Utilizamos una variedad de técnicas de análisis y visualización de datos para extraer información clave y presentar nuestros hallazgos.     Principales Hallazgos
 Top 10 Países por Población en 2024:
