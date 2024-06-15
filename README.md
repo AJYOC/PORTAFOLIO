@@ -1,6 +1,6 @@
-# PORTAFOLIO
+# PORTAFOLIO DE PROYECTO, ANALITICA DE DATOS
 
-#LIMPIEZA Y TRANSFORMACION DE DATOS
+LIMPIEZA Y TRANSFORMACION DE DATOS
 
 Se trabajó con una base de datos en el contexto de una empresa que vende productos de cuidado de la piel. 
 ¿Cuáles son los productos de cuidado de la piel más valorados por los clientes?
@@ -58,6 +58,7 @@ Las medidas de posición utilizada fueron:
 Mínimo, media, mediana, maximo, percentil, varianza muestral, desviación estándar muestral
 
 #CIENCIA DE DATOS
+
 Análisis y cálculos de correlación sobre estadísticas vehiculares (mtcars) proporcionadas por defecto en la plataforma R.
 Se muestra un resumen detallado del modelo de regresión lineal ajustado, incluyendo coeficientes, estadísticas de ajuste y significancia de las variables predictoras. Este paso es crucial para entender la relación cuantitativa entre las variables.
 
@@ -68,4 +69,36 @@ Optimización de eficiencia de combustible: Al analizar la relación entre mpg y
 Predicción de consumo de combustible: Con el modelo de regresión lineal ajustado, puedes prever el consumo de combustible (mpg) esperado para diferentes niveles de potencia (hp). Esto ayuda a los fabricantes de automóviles y a los consumidores a tomar decisiones informadas sobre la selección de vehículos.
 
 Análisis de rendimiento del motor: El análisis de la relación entre la potencia del motor y la eficiencia de combustible también puede proporcionar información sobre el rendimiento general del motor en términos de economía y potencia, lo cual es crucial para el diseño de motores más eficientes y potentes.
+
 #INGENIERIA DE DATOS
+
+En este ejercicio, se llevó a cabo un proceso completo de web scraping, limpieza de datos y análisis estadístico utilizando el lenguaje de programación R. A continuación, se describen detalladamente los pasos realizados:
+
+Instalación y carga de librerías:
+
+Se instalaron y cargaron varias librerías necesarias para realizar el web scraping y el análisis de datos. Las librerías utilizadas fueron rvest para la extracción de datos de páginas web, dplyr para la manipulación de datos, stringr para el manejo de cadenas de texto y tidyverse que incluye un conjunto de paquetes útiles para el análisis de datos.
+Lectura de la página web:
+
+Se leyó el contenido HTML de la página de Wikipedia sobre la Fórmula 1 utilizando la función read_html de la librería rvest.
+Extracción de párrafos:
+
+Se extrajeron todos los párrafos de la página web con la función html_nodes('p'), y luego se transformaron en texto limpio con html_text(trim = TRUE).
+Se seleccionó el primer párrafo no vacío de la página y se mostró en la consola.
+Extracción y limpieza de la tabla de información (infobox):
+
+Se extrajo la tabla de información (infobox) presente en la página web utilizando html_node('.infobox') y se convirtió en un data frame con html_table().
+Se mostró la tabla de información original y luego se realizó una limpieza de la misma renombrando las columnas a Attribute y Value, y filtrando las filas que contenían valores no válidos.
+Limpieza del primer párrafo:
+
+Se limpió el primer párrafo eliminado los espacios en blanco adicionales utilizando la función str_trim de la librería stringr y se mostró el párrafo limpio.
+Agregar columna ficticia y análisis estadístico:
+
+Se agregó una columna de valores numéricos aleatorios a la tabla de información limpia para ilustrar el proceso de análisis estadístico. Estos valores fueron generados con la función sample, utilizando una semilla (set.seed(123)) para asegurar la reproducibilidad de los resultados.
+Se calcularon estadísticas resumen de esta nueva columna numérica, incluyendo la media, mediana, desviación estándar, valor mínimo y valor máximo. Los resultados se mostraron en la consola.
+Guardar datos y resultados:
+
+Se guardó el primer párrafo limpio en un archivo de texto (primer_parrafo.txt).
+La tabla de información limpia se guardó en un archivo CSV (infobox_R.csv).
+Las medidas de resumen estadístico se guardaron en otro archivo CSV (summary_stats.csv).
+
+Este ejercicio demostró cómo utilizar R para realizar web scraping y extraer datos útiles de una página web. Se cubrieron pasos esenciales de limpieza y estructuración de datos, y se realizó un análisis estadístico básico. Finalmente, los resultados se almacenaron en archivos externos para su posterior uso. Este proceso es fundamental para proyectos de análisis de datos que requieren la extracción de información de fuentes en línea y su procesamiento para obtener insights valiosos.
