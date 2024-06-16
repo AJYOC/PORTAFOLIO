@@ -37,6 +37,7 @@ Gráfica de Líneas: Compara la población de los top 10 países entre 2023 y 20
 Gráfica de Columnas Apiladas: Comparación directa de la población entre 2023 y 2024 para los top 10 países.
 
 #VISUALIZACION DE DATOS  https://github.com/AJYOC/PORTAFOLIO/blob/main/3.%20Visualizaci%C3%B3n%20de%20datos%20jugadoresmejorespagados.r
+https://github.com/AJYOC/PORTAFOLIO/blob/main/Rplot01_merged.pdf
 
 La base de datos presenta los ingresos anuales de varios atletas de diferentes disciplinas deportivas en millones de dólares. Cada fila representa un atleta y su ingreso anual en un año específico. 
 
